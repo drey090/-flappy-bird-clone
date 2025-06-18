@@ -2,7 +2,6 @@
   "name": "-flappy-bird-clone",
   "version": "1.0.0",
   "description": "A Flappy Bird clone built with Phaser 3",
-  "main": "index.js",
   "homepage": "https://drey090.github.io/-flappy-bird-clone",
   "scripts": {
     "start": "parcel src/index.html",
@@ -28,7 +27,8 @@
     "phaser": "^3.90.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.15.2",
-    "gh-pages": "^6.3.0"
+    "process": "^0.11.10"
   }
 }
